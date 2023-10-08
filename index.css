@@ -1,0 +1,945 @@
+/* @import url('https://fonts.cdnfonts.com/css/sf-pro-display'); */
+
+/* @import url("https://www.apple.com/wss/fonts/SF-Pro-Display/v3/sf-pro-display_regular.woff2"); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
+    
+}
+a{
+    font-size: 17px;
+    /* color: #2997FF; */
+    color: #0066CC;
+    text-decoration: none;
+
+}
+a:hover{
+    
+    text-decoration: underline;
+
+}
+
+/* Start of Navbar */
+nav{
+    height: 44px;
+    width: 100%;
+    background: rgb(242,242,242);
+    display: flex;
+}
+
+nav article{
+    height: 44px;
+    width: 80%;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+article i.fa-brands.fa-apple{
+    font-size: 17px;
+    color: black;
+}
+
+
+
+/* End of Navbar */
+
+
+/* start of item navbar */
+.itemnav{
+    height: 100px;
+    width: 100%;
+    background: rgb(251,251,253);
+    color: #1D1D1F;
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+    
+}
+
+.insidebox{
+    height: 92px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+.item-list-new{
+    height: 89px;
+    padding: 0 20px 0 20px;
+    /* margin: 0 -2px 0 -2px; */
+    cursor: pointer;
+}
+.item-list{
+    height:77px ;
+    padding: 0 20px 0 20px;
+    /* margin: 0 -2px 0 -2px; */
+    cursor: pointer;
+   
+}
+.insidebox img{
+    height: 54px;
+}
+.item-list span{
+    width: auto;
+}
+
+/* end of item navbar */
+
+#offer{
+    height: 32px;
+    background-color:rgb(242,242,242) ;
+}
+#offer p{
+    height: 16px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding: 9px 0;
+   
+}
+
+
+/* start of iphone 15 pro */
+.iph15pro{
+    /* height: 618px; */
+    width: 100%;
+    background: black;
+    padding: 92px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.iph15pro .title{
+    height:267px ;
+    width: 355px;
+    text-align: center;
+    color: white;
+    margin: 0 452px 69px;
+   
+}
+.iph15pro .image img{
+    height: 282px;
+    /* width: 1079px; */
+    width: 100%;
+    position: relative;
+    left: 100px;
+    
+}
+
+.title #iphone_15_pro_logo{
+   height: 20px;
+   margin-top: 8px;
+}
+.title #headline_titanium{
+    height: 53px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.title #price{
+    height: 29px;
+    width: 100%;
+    font-size: 21px;
+    text-align: start;
+    display: flex;
+    margin-top: -3px;
+}
+.title #extrainfo{
+    height: 81px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+#extrainfo button{
+    border-radius: 52px;
+    font-size: 17px;
+    border:none;
+    padding: 7px 15px;
+    color: white;
+    background: #0077ED;
+}
+.title #extrainfo a{
+    font-size: 21px;
+    color: #2997FF;
+    text-decoration: none;
+
+}
+
+/* end of iphone 15 pro */
+
+/* start of iphone 15  */
+.iph15{
+    /* height: 618px; */
+    width: 100%;
+    background: white;
+    padding: 80px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.iph15 .title{
+    height:267px ;
+    width: 355px;
+    text-align: center;
+    color: black;
+    margin: 0 452px 69px;
+   
+}
+.iph15 .image img{
+    height: 342px;
+    width: 100%;
+    
+}
+
+.title #iphone_15_logo{
+   height: 20px;
+   margin-top: 8px;
+}
+
+.title #price{
+    height: 29px;
+    width: 100%;
+    font-size: 21px;
+    text-align: start;
+    display: flex;
+    margin-top: 18px;
+}
+.title #extrainfo{
+    height: 81px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+#extrainfo button{
+    border-radius: 52px;
+    font-size: 17px;
+    border:none;
+    padding: 7px 15px;
+    color: white;
+    background: #0077ED;
+}
+.title #extrainfo a{
+    font-size: 21px;
+    color: #2997FF;
+    text-decoration: none;
+
+}
+
+/* end of iphone 15 */
+
+
+/* start of iphone SE */
+.iphse{
+    height: 830px;
+    width: 100%;
+    background: #FBFBFD;
+    display: flex
+ 
+}
+.iphse .left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.iphse .left .content{
+    height: 317px;
+    width: 527px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 21px;
+    text-align: center;
+}
+.iphse .left p{
+    height: 104px;
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 600;
+    color: linear(red ,yellow);
+}
+
+.left .content #extrainfo{
+    height: 81px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 29px;
+    cursor: pointer;
+}
+
+.left .content  #extrainfo button{
+    border-radius: 52px;
+    font-size: 17px;
+    border:none;
+    padding: 7px 15px;
+    color: white;
+    background: #0077ED;
+}
+.left .content  #extrainfo a{
+    font-size: 21px;
+    color: #2997FF;
+    text-decoration: none;
+
+}
+.iphse .right{
+    width: 50%;
+   
+    
+}
+.iphse .right img{
+    height: 100%;
+    width: 494px;
+}
+
+/* end of iphone SE */
+
+/* start of advertisement */
+.adver{
+    height:824px ;
+    background: white;
+    padding: 0 15px;
+    
+    
+}
+.adver figure{
+    
+    height: 800px;
+    margin: 15px 0 9px 0;
+    border-radius: 4%;
+    background: url("./images/guided_tour__c40f88on9o8y_large_2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.adver figure .content{
+    height: 199px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    color: white;
+    font-weight: 600;
+    padding: 302px 0 0 218px;
+    
+}
+
+
+
+.adver figure .content #btnfilm{
+    background: white;
+    padding: 7px 15px;
+    color: black;
+    font-size: 17px;
+    font-weight: 100;
+    border-radius: 20px;
+    margin-top: 21px;
+}
+
+/* end of advertisement */
+
+/* start of comparison */
+.compare{
+    height: 2204px;
+    margin: 116px 0 119px 0;
+    /* padding: 0 142px; */
+}
+
+section .compare h1{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+section .compare .list{
+    height: 2013px;
+    width: 980px;
+    /* margin: 68px 20px 0; */
+    margin: 68px 196.5px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+section .compare .list .item{
+    height: 100%;
+    width: 210px;
+    font-size: larger;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+section .compare .list .item h4{
+    font-size: 32px;
+}
+section .compare .list .item .desc{
+    font-size: 14px;
+    text-align: center;
+}
+
+section .compare .list .item #extrainfo{
+    height: 81px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.list .item #extrainfo button{
+    border-radius: 52px;
+    font-size: 12px;
+    border:none;
+    padding: 3px 10px;
+    color: white;
+    background: #0077ED;
+}
+#extrainfo a{
+    font-size: 14px;
+    color: #2997FF;
+    text-decoration: none;
+
+}
+section .compare .end{
+    
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: -40px;
+}
+section .compare .end a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #0066CC;
+    
+}
+.item .top{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* fixing size of div in icompare item list  */
+
+.item > div:nth-child(2){
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 35px;
+}
+
+.item div:nth-child(3){
+    height: 121px;
+    
+}
+.item div:nth-child(4){
+    height: 106px;
+    
+}
+.item div:nth-child(5){
+    height: 86px;
+    
+}
+.item div:nth-child(6){
+    height: 90px;
+    
+}.item div:nth-child(7){
+    height: 188px;
+    
+}
+.item div:nth-child(8){
+    height: 72px;
+    
+}
+.item div:nth-child(9){
+    height: 98px;
+    
+}
+.item div:nth-child(10){
+    height: 74px;
+    
+}
+.item div:nth-child(11){
+    height: 89px;
+    
+}
+.item div:nth-child(12){
+    height: 115px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+section .compare .list .item div{
+    width: 100%;
+    
+}
+/* end of comparison */
+
+
+/* start of Ways to Buy iPhone section */
+/* .buysection{
+    height: 1287px;
+    background:rgb(242,242,242) ;
+    padding: 110px 0 0 0;
+} */
+.buysection{
+    height: 1430px;
+    background:rgb(242,242,242) ;
+    padding: 134px 0 0 0;
+    /* margin: 17px 0 30px 0; */
+}
+.buysection h2{
+    font-size: 56px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.buysection .inner{
+    height: 1157px ;
+    padding : 0 30px;
+}
+.inner .first{
+    height: 550px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.inner .first h3{
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+.inner .first {
+   /* position: relative;
+   top: 44px; */
+       
+}
+.inner .first .left{
+    height: 100%;
+   width: 50%;
+   
+   padding-top:51px;
+   
+   background: url("./images/trade_in_3up__de3xzubyk1w2_large_2x.jpg");
+   background-size: auto 330px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: white;
+}
+.inner .first .right{
+    width: 50%;
+    height: 100%;
+    margin-left: 17px;
+    padding-top:51px;
+    background: url("./images/apple_card__bkmaxfjg05ua_large_2x.jpg");
+    background-size: auto 310px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: white;
+
+}
+
+.inner .second{
+    background-image: url("./images/why_apple__ezn1ktvka6oi_large_2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+    margin: 17px 0 30px 0;
+    padding: 134px 0 0 0 ;
+    display: flex;
+    letter-spacing: 0.5px;
+    justify-content: center;
+    font-size: 21px;
+    
+}
+.inner .second .content{
+    height: 274px;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+
+}
+.inner .second .content h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.inner .second .content a{
+   text-decoration: none;
+}
+
+
+/* end of Ways to Buy iPhone section */
+
+/* start  of Featured accessories */
+
+
+.accessories{
+    height:2028px;
+    padding-top: 95px;
+    background:rgb(242,242,242) ;
+    font-size: 21px;
+    text-align: center;
+}
+.accessories h2{
+    font-size: 56px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-weight: 600;
+}
+.accessories .magsafe {
+    height: 530px;
+    display: flex;
+    margin: 0px 30px;
+    background-color: white;
+}
+.accessories .magsafe .left1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.accessories .magsafe .right1{
+    height: 100%;
+    width: 50%;
+    background: url("./images/magsafe__bfji5hb1mqsy_large_2x.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.accessories .airtag{
+    height: 530px;
+    display: flex;
+    margin: 0px 30px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.accessories .airtag .left2{
+    height: 100%;
+    width: 50%;
+
+    /* background: url("./images/airtag__b5lt0bcbd9ua_large_2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+     */
+    
+
+
+}
+.accessories .airtag .left2 img{
+    position: relative;
+    left: -135px;
+    
+}
+.accessories .airtag .right2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.accessories .airpods{
+    height: 707px;
+   
+    margin: 0px 30px;
+    margin-top: 15px;
+    padding-top: 40px;
+    
+    background:url("./images/airpods__eb24cvhoe26a_large_2x.jpg");
+    background-size:  1063px 498px;
+    background-position: center;
+    background-position-y: 85%;
+    background-repeat: no-repeat;
+    background-color: white;
+    
+}
+.accessories h5{
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.accessories a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #0066CC;
+}
+
+
+/* end  of Featured accessories */
+
+/* start of footer  */
+footer{
+    height: auto; 
+    background: rgb(242,242,242);
+    padding: 0px 30px;
+}
+
+/* start of contact  */
+
+footer .contact{
+    height: 340px;
+    padding-top: 83px;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+footer .contact div{
+    width: 33.33%;
+    height: 100%;
+    font-size: 21px;
+    text-align: center;
+}
+
+footer .contact a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #0066CC;
+}
+footer .contact img{
+    height: 75px;
+}
+/* end of contact  */
+
+/* start of branding  */
+
+footer .branding{
+    padding-top: 110px;
+    text-align: center;
+}
+footer .branding h3{
+    font-size: 56px;
+    margin-bottom: 70px;
+}
+footer .branding .ios17{
+    height: 562px;
+    margin-bottom: 30px;
+    padding: 42px 0 520px 0;
+    font-size: 21px;
+    background: url("./images/ios17__glwsbqdnc6um_large_2x.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: white;
+}
+footer .branding .ios17 #heading{
+    font-size: 48px;
+    font-weight: 600;
+}
+footer .branding .ios17  a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #0066CC;
+}
+
+footer .branding .left-right3{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    
+}
+footer .branding .left-right3 p{
+    margin-top: 62px;
+    font-size: 48px;
+    font-weight: 600;
+    
+}
+footer .branding .left-right3 .right3 p{
+    color: white;
+}
+
+footer .branding .left-right3 .left3{
+        height: 100%;
+        width: 50%;
+        background: url("./images/switching_to_iphone__e3oz9r418awm_large_2x.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-color: white;
+        margin-right: 17px;
+}
+footer .branding .left-right3 .left3 a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #0066CC;
+}
+footer .branding .left-right3 .right3{
+    height: 100%;
+    width: 50%;
+    background: url("./images/privacy_update__cc6s1lqakkk2_small_2x.jpg");
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+footer .branding .left-right3 .right3 #btnfilm{
+    background: white;
+    padding: 7px 15px;
+    color: black;
+    font-size: 17px;
+    font-weight: 100;
+    border-radius: 20px;
+    width: 135px;
+    
+}
+
+/* end of branding  */
+
+/* start of Get more out of your iPhone */
+footer .one{
+    padding-top: 110px;
+    text-align: center;
+}
+footer .one h3{
+    font-size: 56px;
+    margin-bottom: 70px;
+}
+footer .one .more{
+    height: 610px;
+    background-color: white;
+    display: flex;
+   
+}
+footer .one .more .left4{
+    height: 100%;
+    width: 60%;
+    background: url("./images/bundle__gkzbqz77r82m_large_2x.jpg");
+    background-size: 445px 330px ;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+footer .one .more .right4{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+    justify-content: center;
+
+}
+footer .one .more .right4 p{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 30px 0 25px 0;
+}
+footer .one .more .right4 a{
+    font-size: 21px;
+    text-decoration: none;
+    color: #0066CC;
+}
+
+
+
+/* end of Get more out of your iPhone */
+
+
+/* start of terms and condition  */
+footer .terms{
+    padding-top: 50px;
+    padding: 50px 140px  0 140px;
+    
+}
+ul{
+   list-style: none; 
+}
+footer .terms  li{
+    font-size: 12px;
+    
+    color: #424245;
+   
+    text-align: justify;
+    
+    padding-bottom: 10px;
+}
+ol{
+    border-bottom: 1px solid #d2d2d7;
+}
+
+/* end of terms and condition  */
+
+footer .last{
+    padding-top: 50px;
+    padding: 15px 140px 15px 140px;
+      
+    
+}
+
+footer .last .footer-list{
+    padding-top: 30px;
+    height: 364px;
+    width: 196px;
+    font-size: 12px;
+    display: flex;
+    
+}
+footer .last .footer-list li{
+    margin-bottom: 10px;
+    height: 16px;
+    width: 196px;
+}
+footer .last .last-end{
+    margin-top: 34px;
+    color: #6E6E73;
+   padding: 34px 0 21px 0; 
+   font-size: 12px;
+}
+footer .last .last-end p:first-child{
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d2d2d7;
+}
+footer .last .last-end a{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+
+/* end of footer */
+
+
