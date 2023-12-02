@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: 'SF Pro Display', sans-serif;
     
+    
 }
 a{
     font-size: 17px;
@@ -40,10 +41,17 @@ nav article{
     justify-content: space-around;
     cursor: pointer;
 }
+article i{
+    font-size: 18px;
+}
 article i.fa-brands.fa-apple{
-    font-size: 17px;
+    font-size: 22px;
     color: black;
 }
+article i.fa-solid.fa-bars{
+    display: none;
+}
+
 
 
 
@@ -69,6 +77,7 @@ article i.fa-brands.fa-apple{
     justify-content: space-around;
     align-items: center;
     font-size: 12px;
+    text-align: center;
 }
 .item-list-new{
     height: 89px;
@@ -108,10 +117,15 @@ article i.fa-brands.fa-apple{
 
 /* start of iphone 15 pro */
 .iph15pro{
-    /* height: 618px; */
+    height: 618px;
     width: 100%;
-    background: black;
-    padding: 92px 0;
+    background: url("./images/hero_iphone_15_pro__eqwrvy72748y_large_2x.jpg");
+    background-size: 1079px 282px;
+    background-repeat: no-repeat;
+    background-position-x: 270px;
+    background-position-y: 470px;
+    background-color: black;
+    padding: 83px 0 750px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,14 +140,14 @@ article i.fa-brands.fa-apple{
     margin: 0 452px 69px;
    
 }
-.iph15pro .image img{
+/* .iph15pro .image img{
     height: 282px;
-    /* width: 1079px; */
+    width: 1079px;
     width: 100%;
     position: relative;
-    left: 100px;
+    left: 170px;
     
-}
+} */
 
 .title #iphone_15_pro_logo{
    height: 20px;
@@ -182,13 +196,17 @@ article i.fa-brands.fa-apple{
 
 /* start of iphone 15  */
 .iph15{
-    /* height: 618px; */
+    height: 718px;
     width: 100%;
-    background: white;
+    background-color: white;
     padding: 80px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url("./images/hero_iphone_15__fano21ho6fqu_large_2x.jpg");
+    background-size: 1874px 342px;
+    background-repeat: no-repeat;
+    background-position: bottom;
 
 }
 
@@ -200,11 +218,11 @@ article i.fa-brands.fa-apple{
     margin: 0 452px 69px;
    
 }
-.iph15 .image img{
+/* .iph15 .image img{
     height: 342px;
     width: 100%;
     
-}
+} */
 
 .title #iphone_15_logo{
    height: 20px;
@@ -250,10 +268,11 @@ article i.fa-brands.fa-apple{
 
 /* start of iphone SE */
 .iphse{
-    height: 830px;
+    /* height: 830px; */
+    height: auto;
     width: 100%;
     background: #FBFBFD;
-    display: flex
+    display: flex;
  
 }
 .iphse .left{
@@ -261,6 +280,7 @@ article i.fa-brands.fa-apple{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    
 }
 .iphse .left .content{
     height: 317px;
@@ -272,6 +292,7 @@ article i.fa-brands.fa-apple{
     color: black;
     font-size: 21px;
     text-align: center;
+    flex-wrap: nowrap;
 }
 .iphse .left p{
     height: 104px;
@@ -376,13 +397,13 @@ section .compare h1{
     font-weight: 600;
     text-align: center;
 }
-section .compare .list{
+section .compare .list{ 
     height: 2013px;
-    width: 980px;
-    /* margin: 68px 20px 0; */
-    margin: 68px 196.5px 0;
+    /* width: 980px; */
+    margin: 68px 20px 0;
+    /* margin: 68px 196.5px 0; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
@@ -390,7 +411,7 @@ section .compare .list{
 
 section .compare .list .item{
     height: 100%;
-    width: 210px;
+    /* width: 250px; */
     font-size: larger;
     background: white;
     display: flex;
@@ -651,9 +672,15 @@ section .compare .list .item div{
 .accessories .airtag{
     height: 530px;
     display: flex;
+    justify-content: flex-end;
     margin: 0px 30px;
-    background-color: white;
     margin-top: 15px;
+        background: url("./images/airtag__b5lt0bcbd9ua_large_2x.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+
 }
 
 .accessories .airtag .left2{
@@ -663,18 +690,14 @@ section .compare .list .item div{
     /* background: url("./images/airtag__b5lt0bcbd9ua_large_2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 
-     */
+    
     
 
 
 }
-.accessories .airtag .left2 img{
-    position: relative;
-    left: -135px;
-    
-}
+
 .accessories .airtag .right2{
     height: 100%;
     width: 50%;
@@ -727,10 +750,12 @@ footer .contact{
     padding-top: 83px;
     margin-bottom: 30px;
     display: flex;
+    justify-content: space-around;
     
 }
 footer .contact div{
-    width: 33.33%;
+    /* width: 33.33%; */
+    width: 320px;
     height: 100%;
     font-size: 21px;
     text-align: center;
@@ -859,7 +884,7 @@ footer .one .more .right4{
     width: 40%;
     display: flex;
     flex-direction: column;
-   align-items: flex-start;
+    align-items: flex-start;
     justify-content: center;
 
 }
@@ -881,7 +906,7 @@ footer .one .more .right4 a{
 
 /* start of terms and condition  */
 footer .terms{
-    padding-top: 50px;
+    
     padding: 50px 140px  0 140px;
     
 }
@@ -906,6 +931,7 @@ ol{
 footer .last{
     padding-top: 50px;
     padding: 15px 140px 15px 140px;
+    text-align: left;
       
     
 }
@@ -913,15 +939,18 @@ footer .last{
 footer .last .footer-list{
     padding-top: 30px;
     height: 364px;
-    width: 196px;
+    /* width: 196px; */
     font-size: 12px;
     display: flex;
+    justify-content: space-between;
+
     
 }
+
 footer .last .footer-list li{
     margin-bottom: 10px;
     height: 16px;
-    width: 196px;
+    width: 150px;
 }
 footer .last .last-end{
     margin-top: 34px;
@@ -939,7 +968,213 @@ footer .last .last-end a{
     text-decoration: underline;
 }
 
+.last .footer-listres{
+    display: none;
+}
+
+.last .footer-listres .accordion {
+    cursor: pointer;
+    padding: 10px 0px ;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+    transition: 0.4s;
+    background: rgb(242,242,242);
+    border-bottom: 1px solid #d2d2d7;
+
+  }
+  .last .footer-listres .accordion .fa-solid{
+    right: 200px;
+    position: absolute;
+  }
+  
+  
+  
+  
+  .last .footer-listres .panel {
+    display: none;
+    overflow: hidden;
+    font-size: 12px;
+    
+  }
+  .last .footer-listres .panel li{
+    padding: 0 18px;
+    margin-bottom: 10px;
+    list-style: none;
+    
+  }
+  .last .footer-listres .panel li:last-child{
+    border-bottom: 1px solid #d2d2d7;
+    width: 100%;
+    padding: 0;
+    
+  }
+
+
 
 /* end of footer */
 
+
+/* start of media query */
+
+@media screen  and (max-width:950px){
+
+    /* start of navbar */
+    article .menu {
+        display: none;
+    }
+    article i.fa-solid.fa-bars{
+        display: inline;
+        align-items: flex-start;   
+    }
+    nav article{
+        justify-content: end;
+        gap: 40px;
+    }
+    nav article div:first-child{
+        position: absolute;
+        left: 70px;
+    }
+    .insidebox{
+        overflow-x: scroll;
+    }
+    .insidebox::-webkit-scrollbar{
+        display: none;
+    }
+
+    /* end of navbar */
+
+    .iphse{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .iphse .left {
+        width: 100%;
+        height: 300px;
+        margin: 15px 0 65px;
+        padding-top: 52px;
+        justify-content: center;
+    
+    }
+    .iphse .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .iphse .left .content{
+    
+    }
+
+    /* start of compare  */
+    .compare{
+        height: auto;
+    }
+    section .compare .list{ 
+        flex-wrap: wrap;
+        /* width: 600px; */
+        margin: 0 37px 0 37px 0;
+        height: auto;
+        margin-bottom: 10px;
+        margin: auto;
+    
+    }
+    
+    section .compare .list .item{
+        height: 2013px;
+        /* temporary width  */
+        width: 350px;
+   
+    }
+
+    /* end of compare  */
+
+    /* start  of Featured accessories */
+    .accessories .magsafe{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+   
+    }
+    .accessories .magsafe .left1{
+        width: 100%;
+        height: 400px;
+   
+    }
+    .accessories .magsafe .right1{
+        width: 100%;
+        height: 400px;
+   
+    }
+
+    /* end  of Featured accessories */
+
+
+    /* start of contact  */
+
+    footer .contact {
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer .contact div{
+        padding-bottom: 40px;
+    }
+    /* end of contact  */
+
+    /* start of Get more out of your iPhone  */
+    footer .one .more {
+        height: 350px;
+    }
+    footer .one .more .left4{
+        background-size: 253px 191px;
+    }
+    footer .one .more .right4 img{
+        height: 60px;
+    }
+    footer .one .more .left4, .right4{
+        width: 50%;
+    }
+    footer .one .more .right4 {
+      align-items: center;  
+    }
+    
+    footer .one .more .right4 p {
+        font-size: 21px;
+    }
+    footer .one .more .right4 a {
+        font-size: 17px;
+    }
+
+    /* end  of Get more out of your iPhone  */
+
+    footer .last{
+        padding: 50px 0px  0 0px;
+    }
+    footer .last .footer-list  {
+        display: none;
+    }
+    footer .last .footer-listres  {
+        display: block;
+    }
+    .last .footer-listres .accordion .fa-solid{
+        right: 55px;
+    }
+    
+    
+
+    
+   
+    footer .terms{
+        
+        padding: 50px 0px  0 0px;
+        
+    }
+     
+    
+}
+
+/* end of media query */
 
