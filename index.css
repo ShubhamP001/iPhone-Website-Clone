@@ -140,14 +140,20 @@ article i.fa-solid.fa-bars{
     margin: 0 452px 69px;
    
 }
-/* .iph15pro .image img{
-    height: 282px;
-    width: 1079px;
+.iph15pro .image{
+    display: none;
+}
+.iph15pro .image img{
+    height: 300px;
+    padding: 80px ;
+    padding-top: 100px;
     width: 100%;
+    transform: rotate(90deg);
     position: relative;
-    left: 170px;
+    top: 35px;
+   
     
-} */
+}
 
 .title #iphone_15_pro_logo{
    height: 20px;
@@ -369,6 +375,16 @@ article i.fa-solid.fa-bars{
     font-weight: 600;
     padding: 302px 0 0 218px;
     
+}
+.adverimg {
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    background:url("./images/guided_tour__c40f88on9o8y_large_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    display: none;
 }
 
 
@@ -1046,6 +1062,24 @@ footer .last .last-end a{
 
     /* end of navbar */
 
+    /* start of offer  */
+    #offer{
+        height: 45px;
+    }
+    /* end of offer  */
+
+   
+
+    /* start of iphone 15  */
+    .ip15{
+        height: 620px;
+        background-size: 1000px 230px;
+    }
+
+    /* end of iphone 15  */
+
+
+    /* start of iphone se  */
     .iphse{
         flex-wrap: wrap;
         flex-direction: column;
@@ -1064,13 +1098,18 @@ footer .last .last-end a{
         display: flex;
         justify-content: center;
     }
-    .iphse .left .content{
-    
+    .iphse .right img{
+        width: 80%;
     }
+
+    /* end of iphone se  */
+
+    
 
     /* start of compare  */
     .compare{
         height: auto;
+        margin-top: 0;
     }
     section .compare .list{ 
         flex-wrap: wrap;
@@ -1090,6 +1129,8 @@ footer .last .last-end a{
     }
 
     /* end of compare  */
+
+
 
     /* start  of Featured accessories */
     .accessories .magsafe{
@@ -1124,9 +1165,271 @@ footer .last .last-end a{
     }
     /* end of contact  */
 
+    /* start of branding */
+    footer .branding .ios17{
+        background-size: cover;
+    }
+
+
+    /* end of branding */
+
+
     /* start of Get more out of your iPhone  */
+    
     footer .one .more {
-        height: 350px;
+       height: 300px;
+       padding: 10px;
+    }
+    footer .one .more .left4{
+        background-size: 253px 191px;
+    }
+    footer .one .more .right4 img{
+        height: 70px;
+    }
+    footer .one .more .left4{
+        width: 120%;
+        background-position:center;
+    }
+    footer .one .more .right4{
+        width: 100%;
+    }
+    footer .one .more .right4 {
+      align-items: center;  
+    }
+    
+    footer .one .more .right4 p {
+        font-size: 21px;
+    }
+    footer .one .more .right4 a {
+        font-size: 17px;
+    }
+
+    /* end  of Get more out of your iPhone  */
+
+    footer .last{
+        padding: 50px 0px  0 0px;
+    }
+    footer .last .footer-list  {
+        display: none;
+    }
+    footer .last .footer-listres  {
+        display: block;
+    }
+    .last .footer-listres .accordion .fa-solid{
+        right: 55px;
+    }
+    
+    
+
+    
+   
+    footer .terms{
+        
+        padding: 50px 0px  0 0px;
+        
+    }
+     
+    
+}
+
+/* end of media query */
+
+/* :start of media query for mobile screen  */
+@media screen  and (max-width:650px){
+
+    /* start of navbar */
+    article .menu {
+        display: none;
+    }
+    article i.fa-solid.fa-bars{
+        display: inline;
+        align-items: flex-start;   
+    }
+    nav article{
+        justify-content: end;
+        gap: 40px;
+    }
+    nav article div:first-child{
+        position: absolute;
+        left: 70px;
+    }
+    .insidebox{
+        overflow-x: scroll;
+    }
+    .insidebox::-webkit-scrollbar{
+        display: none;
+    }
+
+    /* end of navbar */
+
+    /* start of offer  */
+    #offer{
+        height: 45px;
+    }
+    /* end of offer  */
+
+    /* start of iphone 15 pro */
+    .iph15pro{
+        background-image: none;
+    }
+    .iph15pro .image{
+        display: block;
+    }
+    /* end of iphone 15 pro  */
+
+    /* start of iphone 15  */
+    .ip15{
+        height: 620px;
+        background-size: 1000px 230px;
+    }
+
+    /* end of iphone 15  */
+
+
+    /* start of iphone se  */
+    .iphse{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .iphse .left {
+        width: 100%;
+        height: 300px;
+        margin: 15px 0 65px;
+        padding-top: 52px;
+        justify-content: center;
+    
+    }
+    .iphse .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .iphse .right img{
+        width: 100%;
+    }
+
+    /* end of iphone se  */
+
+    /* start of advertisement */
+    .adver figure{
+        background-image: none;
+
+    }
+    .adver figure .content{
+        width: auto;
+        color: black;
+        padding: 0;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .adverimg{
+        display: block;
+    }
+
+    /* end of advertisement */
+
+    /* start of compare  */
+    .compare{
+        height: auto;
+        margin-top: 0;
+    }
+    section .compare .list{ 
+        flex-wrap: wrap;
+        /* width: 600px; */
+        margin: 0 37px 0 37px 0;
+        height: auto;
+        margin-bottom: 10px;
+        margin: auto;
+    
+    }
+    
+    section .compare .list .item{
+        height: 2013px;
+        /* temporary width  */
+        width: 250px;
+   
+    }
+
+    /* end of compare  */
+
+    /* start of Ways to Buy iPhone section  */
+    .buysection{
+        padding-top: 60px;
+    }
+    .inner .first{
+        flex-wrap: wrap;
+    }
+    .inner .first .left{
+        width: 100%;
+    }
+    .inner .first .right{
+        width: 100%;
+    }
+    .inner .second{
+        
+    }
+    /* endof  Ways to Buy iPhone section   */
+
+    /* start  of Featured accessories */
+    .accessories .magsafe{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+   
+    }
+    .accessories .magsafe .left1{
+        width: 100%;
+        height: 400px;
+   
+    }
+    .accessories .magsafe .right1{
+        width: 100%;
+        height: 400px;
+   
+    }
+
+    /* end  of Featured accessories */
+
+
+    /* start of contact  */
+
+    footer .contact {
+        height: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer .contact div{
+        padding-bottom: 40px;
+    }
+    /* end of contact  */
+
+    /* start of branding */
+    footer .branding .ios17{
+        background-size: cover;
+    }
+    footer .branding .left-right3{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    footer .branding .left-right3 .left3 {
+        width: 100%;
+    }
+    footer .branding .left-right3 .right3 {
+        width: 100%;
+    }
+
+    /* end of branding */
+
+
+    /* start of Get more out of your iPhone  */
+    footer .one{
+        margin-top: 520px;
+    }
+    footer .one .more {
+        height: 450px;
+        flex-direction:column-reverse ;
+        padding: 10px;
     }
     footer .one .more .left4{
         background-size: 253px 191px;
@@ -1134,8 +1437,12 @@ footer .last .last-end a{
     footer .one .more .right4 img{
         height: 60px;
     }
-    footer .one .more .left4, .right4{
-        width: 50%;
+    footer .one .more .left4{
+        width: 120%;
+        background-position:center;
+    }
+    footer .one .more .right4{
+        width: 100%;
     }
     footer .one .more .right4 {
       align-items: center;  
