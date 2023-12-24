@@ -71,7 +71,7 @@ article i.fa-solid.fa-bars{
 }
 
 .insidebox{
-    height: 92px;
+    height: 110px;
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -102,11 +102,9 @@ article i.fa-solid.fa-bars{
 /* end of item navbar */
 
 #offer{
-    height: 32px;
     background-color:rgb(242,242,242) ;
 }
 #offer p{
-    height: 16px;
     width: 100%;
     font-size: 12px;
     text-align: center;
@@ -397,6 +395,7 @@ article i.fa-solid.fa-bars{
     font-weight: 100;
     border-radius: 20px;
     margin-top: 21px;
+    border: 1px solid black;
 }
 
 /* end of advertisement */
@@ -1055,6 +1054,7 @@ footer .last .last-end a{
     }
     .insidebox{
         overflow-x: scroll;
+        justify-content: flex-start;
     }
     .insidebox::-webkit-scrollbar{
         display: none;
@@ -1071,9 +1071,9 @@ footer .last .last-end a{
    
 
     /* start of iphone 15  */
-    .ip15{
-        height: 620px;
-        background-size: 1000px 230px;
+    .iph15{
+        height: 525px;
+        background-size: 700px 150px;
     }
 
     /* end of iphone 15  */
@@ -1129,10 +1129,35 @@ footer .last .last-end a{
     }
 
     /* end of compare  */
+    .inner .first .right{
+        margin-top: 20px;
+        background-size: contain
+    }
+    .inner{
+        margin-left: 17px;
+    }
+
+    .inner .second{
+        height: 650px;
+        background-position: bottom;
+        background-size: contain;
+        padding: 134px 10px 0 ;
+        margin-top: 525px;
+        
+    }
+    .inner .second .content{
+       width: 100%;
+    
+    }
 
 
 
     /* start  of Featured accessories */
+    .accessories{
+        margin-top: 600px;
+        margin-left: 17px;
+
+    }
     .accessories .magsafe{
         height: auto;
         flex-wrap: wrap;
@@ -1148,6 +1173,15 @@ footer .last .last-end a{
         width: 100%;
         height: 400px;
    
+    }
+    .accessories .airtag{
+        
+        background-position: bottom;
+    }
+    .accessories .airtag .right2{
+        width: 100%;
+        padding: 15px;
+        justify-content: unset;
     }
 
     /* end  of Featured accessories */
@@ -1278,10 +1312,7 @@ footer .last .last-end a{
     /* end of iphone 15 pro  */
 
     /* start of iphone 15  */
-    .ip15{
-        height: 620px;
-        background-size: 1000px 230px;
-    }
+    
 
     /* end of iphone 15  */
 
