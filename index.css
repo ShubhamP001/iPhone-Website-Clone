@@ -67,6 +67,7 @@ article i.fa-solid.fa-bars{
     display: flex;
     justify-content: center;
     margin: 8px 0;
+    position: relative;
     
 }
 
@@ -78,6 +79,24 @@ article i.fa-solid.fa-bars{
     align-items: center;
     font-size: 12px;
     text-align: center;
+}
+.itemnav::before{
+    content: "\3008";
+    position: absolute;
+    font-size:40px;
+    left:0;
+    top:25%;
+    color: lightgray;
+
+}
+.itemnav::after{
+    content: "\3009";
+    position: absolute;
+    font-size:40px;
+    right:0;
+    top:25%;
+    color: lightgray;
+
 }
 .item-list-new{
     height: 89px;
@@ -842,7 +861,6 @@ footer .branding .left-right3 .left3{
         background-repeat: no-repeat;
         background-position: bottom;
         background-color: white;
-        margin-right: 17px;
 }
 footer .branding .left-right3 .left3 a{
     font-size: 21px;
