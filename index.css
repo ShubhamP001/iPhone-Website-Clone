@@ -599,7 +599,7 @@ section .compare .list .item div{
 .inner .first .right{
     width: 50%;
     height: 100%;
-    margin-left: 17px;
+    
     padding-top:51px;
     background: url("./images/apple_card__bkmaxfjg05ua_large_2x.jpg");
     background-size: auto 310px;
@@ -1103,6 +1103,19 @@ footer .last .last-end a{
     }
 
     /* end of iphone se  */
+    /* start of buysection  */
+    .buysection{
+        padding-top: 60px;
+    }
+    .inner .first{
+        flex-wrap: wrap;
+    }
+    .inner .first .left{
+        width: 100%;
+    }
+    .inner .first .right{
+        width: 100%;
+    }
 
     
 
@@ -1131,17 +1144,17 @@ footer .last .last-end a{
     /* end of compare  */
     .inner .first .right{
         margin-top: 20px;
-        background-size: contain
+        
     }
     .inner{
         margin-left: 17px;
     }
 
     .inner .second{
-        height: 650px;
+        height: 890px;
         background-position: bottom;
         background-size: contain;
-        padding: 134px 10px 0 ;
+        padding: 205px 10px 0 ;
         margin-top: 525px;
         
     }
@@ -1154,7 +1167,7 @@ footer .last .last-end a{
 
     /* start  of Featured accessories */
     .accessories{
-        margin-top: 600px;
+        margin-top: 760px;
         margin-left: 17px;
 
     }
@@ -1175,12 +1188,13 @@ footer .last .last-end a{
    
     }
     .accessories .airtag{
-        
-        background-position: bottom;
+         background-position: bottom;
+         height: 870px;
+        padding: 50px;
+
     }
     .accessories .airtag .right2{
         width: 100%;
-        padding: 15px;
         justify-content: unset;
     }
 
@@ -1188,6 +1202,9 @@ footer .last .last-end a{
 
 
     /* start of contact  */
+    footer{
+        margin-top: 645px;
+    }
 
     footer .contact {
         height: 100%;
@@ -1203,13 +1220,26 @@ footer .last .last-end a{
     footer .branding .ios17{
         background-size: cover;
     }
-
+    footer .branding .left-right3{
+            height: 700px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    footer .branding .left-right3 .left3 {
+        width: 100%;
+    }
+    footer .branding .left-right3 .right3 {
+        width: 100%;
+    }
 
     /* end of branding */
 
 
     /* start of Get more out of your iPhone  */
-    
+    footer .one{
+    margin-top: 650px;
+
+    }
     footer .one .more {
        height: 300px;
        padding: 10px;
@@ -1385,7 +1415,7 @@ footer .last .last-end a{
     /* end of compare  */
 
     /* start of Ways to Buy iPhone section  */
-    .buysection{
+    /* .buysection{
         padding-top: 60px;
     }
     .inner .first{
@@ -1396,13 +1426,16 @@ footer .last .last-end a{
     }
     .inner .first .right{
         width: 100%;
-    }
+    } */
     .inner .second{
-        
+        height: 785px;
     }
     /* endof  Ways to Buy iPhone section   */
 
     /* start  of Featured accessories */
+    .accessories{
+        margin-top: 680px;
+    }
     .accessories .magsafe{
         height: auto;
         flex-wrap: wrap;
@@ -1419,11 +1452,19 @@ footer .last .last-end a{
         height: 400px;
    
     }
+    .accessories .airtag{
+        height: 660px;
+    
+
+   }
 
     /* end  of Featured accessories */
 
 
     /* start of contact  */
+    footer{
+        margin-top: 450px;
+    }
 
     footer .contact {
         height: 100%;
@@ -1439,24 +1480,22 @@ footer .last .last-end a{
     footer .branding .ios17{
         background-size: cover;
     }
-    footer .branding .left-right3{
-        flex-wrap: wrap;
-        gap: 20px;
+     footer .branding .left-right3{
+        
+        height: 600px;
     }
-    footer .branding .left-right3 .left3 {
+   /* footer .branding .left-right3 .left3 {
         width: 100%;
     }
     footer .branding .left-right3 .right3 {
         width: 100%;
-    }
+    } */
 
     /* end of branding */
 
 
     /* start of Get more out of your iPhone  */
-    footer .one{
-        margin-top: 520px;
-    }
+    
     footer .one .more {
         height: 450px;
         flex-direction:column-reverse ;
@@ -1469,8 +1508,8 @@ footer .last .last-end a{
         height: 60px;
     }
     footer .one .more .left4{
-        width: 120%;
-        background-position:center;
+        width: 100%;
+        background-position: 70%;
     }
     footer .one .more .right4{
         width: 100%;
